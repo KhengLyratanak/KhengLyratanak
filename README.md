@@ -1,93 +1,86 @@
-# Kheng Lyratanak
+# Hi, I'm Kheng Lyratanak 👋
 
 ### Junior Java Backend Developer · Java & Spring Boot
 
-**Phnom Penh, Cambodia 🇰🇭 · Computer Science Student**
+📍 Phnom Penh, Cambodia 🇰🇭 · 🎓 Computer Science student at Royal University of Phnom Penh
 
-I’m a Computer Science student and Java Backend Developer focused on building RESTful APIs and backend applications with **Java and Spring Boot**.
+I build REST APIs and backend systems with **Java and Spring Boot**: secure authentication, clean layered architecture, and real payment integration (KHQR / Bakong).
+🎯 **Open to a Java Backend Internship or Junior Developer role.**
 
-I enjoy designing clean backend architectures, working with databases, and implementing authentication and authorization.
-
-[GitHub](https://github.com/KhengLyratanak) · [LinkedIn](https://linkedin.com/in/kheng-lyratanak) · [Email](mailto:khenglyratanak@gmail.com)
-
----
-
-## 👨‍💻 About Me
-
-* 🎓 Year 4 Computer Science student at Royal University of Phnom Penh
-* ☕ Focused on **Java & Spring Boot backend development**
-* 🔐 Learning **Spring Security & JWT Authentication**
-* 🗄️ Working with **MySQL & PostgreSQL**
-* 🧩 Using **JPA/Hibernate, DTO, Mapper & Layered Architecture,Pagination, Validation, Exception Handling & Logging**
-* 📑 Learning **Microservice, React & Devops**
-* 🎯 Looking for a **Java Backend Internship / Junior Developer opportunity**
+[![Portfolio](https://img.shields.io/badge/Portfolio-1e5bd8?style=flat&logo=vercel&logoColor=white)](https://kheng-lyratanak.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/kheng-lyratanak)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:khenglyratanak@gmail.com)
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Backend:** Java · Spring Boot · Spring Security · JPA/Hibernate · REST APIs · JWT
-
-**Database:** MySQL · PostgreSQL · SQL
-
-**Tools:** Git · GitHub · Postman · IntelliJ IDEA
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA_/_Hibernate-59666C?style=flat&logo=hibernate&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellijidea&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🛒 E-Commerce Backend API
+### 🍽️ RESTORIA – Restaurant POS System · [Live demo](https://restaurant-pos-frontend-v5su.vercel.app) · [Code](https://github.com/KhengLyratanak/RESTORIA-pos-system)
 
-RESTful e-commerce backend built with Java, Spring Boot, Spring Security, JWT, JPA/Hibernate, and SQL.
+Full restaurant point-of-sale system, deployed and running online.
 
-**Features:** Authentication · RBAC · Products · Cart · Orders · Reviews · Inventory · Logging · Pagination
+- **Payments:** KHQR (Bakong) QR payment, cash payment, printed receipts
+- **Orders:** discount, VAT and service charge calculated with `BigDecimal`
+- **Busy hours:** dine-in tables 1–10 and take-away 1–10, add items to open orders, move tables
+- **Security:** Spring Security + JWT, admin / cashier roles
+- **Reports:** daily sales and payment reports
+- **Stack:** Java 21 · Spring Boot · PostgreSQL · React · Render · Vercel
 
-[View Repository](https://github.com/KhengLyratanak/Ecommerce-backend)
+### 📦 Inventory & Order Management System · [Code](https://github.com/KhengLyratanak/springboot-inventory-management-project)
 
-### 📦 Inventory & Order Management System
+Backend for managing users, products, suppliers, stock and orders.
 
-Backend system for managing users, products, orders, suppliers, and stock.
+**Features:** JWT · RBAC · CRUD · DTO & Mapper · Validation · Global exception handling · AOP logging
 
-**Features:** JWT · RBAC · CRUD · DTO · Mapper · Validation · Exception Handling · AOP Logging
+### 🛒 E-Commerce REST API · [Code](https://github.com/KhengLyratanak/ecomerce-project)
 
-[View Repository](https://github.com/KhengLyratanak/springboot-inventory-management-project)
+RESTful e-commerce backend with Java, Spring Boot, Spring Security, JWT and JPA/Hibernate.
+
+**Features:** Authentication · RBAC · Products · Cart · Orders · Pagination · Logging
+
+### 🔐 Auth App · [Code](https://github.com/KhengLyratanak/auth-app)
+
+Authentication service: register, login, JWT access and refresh tokens.
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ How I structure my code
 
 ```text
-Controller
-     ↓
-  Service
-     ↓
-Repository
-     ↓
- Database
+Controller  →  Service  →  Repository  →  Database
+    ↑             ↑
+   DTO ← Mapper → Entity
 ```
 
 ---
 
 ## 📚 Currently Learning
 
-Spring Security · JWT · Pagination · Logging · Docker · Clean Code · SOLID
+React · Docker · Microservices · CI/CD · Clean Code & SOLID
 
 ---
 
 ## 🎓 Education
 
-**Royal University of Phnom Penh**
-Bachelor of Computer Science · Year 4
-2024 – Present · Expected Graduation: 2027
+**Royal University of Phnom Penh** · Bachelor of Computer Science
+Year 4 · Expected graduation: 2027
 
 ---
 
-## 📫 Contact
-
-📧 **Email:** [khenglyratanak@gmail.com](mailto:khenglyratanak@gmail.com)
-💼 **LinkedIn:** linkedin.com/in/kheng-lyratanak
-💻 **GitHub:** github.com/KhengLyratanak
-
----
-
-⭐ Thanks for visiting my profile!
+⭐ Thanks for visiting! Feel free to reach out at [khenglyratanak@gmail.com](mailto:khenglyratanak@gmail.com).
